@@ -1,0 +1,190 @@
+@media (max-width:1440px) {
+    .nav_bar {
+        padding: 20px 100px;
+    }
+
+    .forul ul {
+        gap: 75px;
+    }
+
+    .first_page {
+        padding: 0 100px;
+    }
+
+    .sec_page {
+        padding: 0 100px;
+    }
+
+    .third_page {
+        padding: 100px 100px 0 100px;
+    }
+}
+
+@media (max-width:1200px) {
+    .for_title i {
+        font-size: 40px;
+    }
+
+    .for_title h1 {
+        font-size: 28px;
+    }
+
+    .forul ul {
+        gap: 50px;
+    }
+
+    .box h1 {
+        font-size: 28px;
+    }
+
+    .dollar {
+        font-size: 40px;
+    }
+
+}
+
+@media (max-width:992px) {
+    .nav_bar {
+        padding: 20px 50px;
+    }
+    .for_text p {
+        font-size: 16px;
+    }
+    .forul {
+        display: none;
+    }
+
+    .sneaky {
+        display: flex;
+    }
+
+    .first_page {
+        padding: 0 50px;
+    }
+
+    .sec_page {
+        padding: 0 50px;
+        height: 1000px;
+    }
+
+    .for_text h1 {
+        font-size: 50px;
+    }
+
+    .box {
+        width: calc(50% - 20px);
+        height: 40%;
+    }
+
+    .third_page {
+        padding: 0 50px;
+    }
+
+    .third_page h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:768px) {
+    .for_title h1 {
+        font-size: 25px;
+    }
+
+    .for_title i {
+        font-size: 35px;
+    }
+
+    .for_text h1 {
+        font-size: 40px;
+    }
+
+    .sec_page {
+        padding: 0 50px;
+        height: 2200px;
+    }
+
+    .third_page {
+        padding: 0 50px;
+    }
+
+    .box {
+        width: 100%;
+        height: 17.5%;
+    }
+
+    .third_page h1 {
+        font-size: 27px;
+    }
+}
+
+@media (max-width:567px) {
+    .first_page {
+        padding: 0 30px;
+    }
+
+    .sec_page {
+        padding: 0 30px;
+    }
+
+    .third_page {
+        padding: 0 30px;
+    }
+
+    .nav_bar {
+        padding: 20px 30px;
+    }
+
+    .for_title h1 {
+        font-size: 23px;
+    }
+
+    .for_title i {
+        font-size: 30px;
+    }
+
+    .sneaky i {
+        font-size: 25px;
+    }
+
+    .third_page h1 {
+        font-size: 25px;
+    }
+}
+
+@media(max-width:425px) {
+    .for_title i {
+        font-size: 25px;
+    }
+
+    .for_title h1 {
+        font-size: 20px;
+    }
+
+    .sneaky i {
+        font-size: 20px;
+    }
+
+    .for_text h1 {
+        font-size: 30px;
+    }
+
+    .for_text p {
+        font-size: 15px;
+    }
+
+    .box {
+        padding: 10px;
+    }
+
+    .box h1 {
+        font-size: 25px;
+    }
+
+    .box p {
+        font-size: 15px;
+    }
+
+    .third_page h1 {
+        font-size: 22px;
+    }
+}

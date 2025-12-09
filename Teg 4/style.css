@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.nav_bar {
+    width: 100%;
+    height: fit-content;
+    padding: 20px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.for_title {
+    width: fit-content;
+    height: fit-content;
+}
+
+.for_title h1 {
+    margin: 0;
+    font-weight: 100;
+    color: rgb(196, 167, 167);
+}
+
+.for_ul {
+    width: fit-content;
+    height: fit-content;
+}
+
+.for_ul ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 80px;
+}
+
+.for_ul li {
+    font-weight: 900;
+}
+
+.sneaky {
+    display: none;
+}
+
+.sneaky i {
+    font-size: 27px;
+}
+
+.first_page {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    padding: 0 150px;
+    position: relative;
+}
+
+.bgimg {
+    width: 50%;
+    height: 100%;
+    background-image: url(https://st5.depositphotos.com/62628780/64711/i/450/depositphotos_647111934-stock-photo-architect-construction-worker-men-tablet.jpg);
+    background-size: cover;
+    position: absolute;
+    left: 0;
+}
+
+.covver {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(254, 201, 1);
+    position: absolute;
+    right: 0;
+}
+
+.for_content {
+    width: calc(100% - 150px);
+    height: 100%;
+    background-color: white;
+    padding: 70px 50px;
+}
+
+.for_content h1 {
+    margin: 0;
+    font-size: 80px;
+}
+
+.for_content p {
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+.for_content button {
+    background-color: transparent;
+    border: 2px solid;
+    padding: 20px 45px;
+    font-weight: 600;
+}
+
+u {
+    cursor: pointer;
+}
+
+.sec_page {
+    background-color: black;
+    color: white;
+    padding: 50px 250px;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+}
+
+.sec_page h1 {
+    margin-top: 0;
+    font-size: 45px;
+}
+
+.sec_page p {
+    line-height: 1.5;
+    font-size: 22px;
+}
+
+.sec_page button {
+    background-color: rgb(254, 201, 1);
+    border: none;
+    padding: 15px 40px;
+}
+
+.third_page {
+    width: 100%;
+    height: 1500px;
+    padding: 20px 150px;
+}
+.mauto {
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+}
+.for_box {
+    width: 100%;
+    height: 85%;
+}
+.box1 {
+    width: 100%;
+    height: 31.5%;
+    margin-bottom: 30px;
+    background-color: rgb(228,228,228);
+    display: flex;
+}
+.box2 {
+    width: 100%;
+    height: 31.5%;
+    margin-bottom: 30px;
+    background-color: rgb(254, 201, 1);
+    display: flex;
+}
+.box3 {
+    width: 100%;
+    height: 31.5%;
+    margin-bottom: 30px;
+    background-color: rgb(228,228,228);
+    display: flex;
+}
+.for_img {
+    width: 45%;
+    height: 100%;
+}
+.for_for {
+    width: 55%;
+    height: 100%;
+    padding: 40px;
+}
+.for_for h1 {
+    font-weight: 100;
+}
+.for_for p {
+    line-height: 2;
+    margin: 0;
+}
+.for_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

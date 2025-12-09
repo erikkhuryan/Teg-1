@@ -1,0 +1,180 @@
+.first_page {
+    width: 100%;
+    height: 800px;
+    padding: 100px 200px;
+}
+.green {
+    background-color: rgb(254,201,1);
+    width: calc(100% - 100px);
+    height: 40%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 50px;
+    animation-name: for_green;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+@keyframes for_green {
+    0% {
+        height: 0;
+        opacity: 0;
+    }
+    100% {
+        height: 40%;
+        opacity: 1;
+    }
+}
+.twocol {
+    width: 100%;
+    height: 100%;
+}
+.left {
+    width: 50%;
+    height: 100%;
+    transform: translate(-500px) rotate(270deg);
+    animation-name: for_left;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+@keyframes for_left {
+    0% {
+        transform: translate(-500px)  rotate(-270deg);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0)  rotate(0deg);
+        opacity: 1;
+    }
+    
+}
+.right {
+    width: 50%;
+    height: 100%;
+    transform: translate(500px) rotate(270deg);
+    animation-name: for_right;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+@keyframes for_right {
+    0% {
+        transform: translate(500px)  rotate(270deg);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0)  rotate(0deg);
+        opacity: 1;
+    }
+    
+}
+.left img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+.for_textleft {
+    width: 100%;
+    height: 40%;
+    font-family: sans-serif;
+}
+.for_textleft h1 {
+    color: rgb(255, 82, 82);
+}
+.for_textleft button {
+    border: none;
+    color: white;
+    background-color: rgb(255, 82, 82);
+    padding: 10px 35px;
+    border-radius: 5px;
+}
+.right img {
+    width: 100%;
+    height: 65%;
+    object-fit: cover;
+}
+.sec_page {
+    width: 100%;
+    height: 700px;
+    padding: 0 50px;
+    position: relative;
+}
+.for_title {
+    width: 100%;
+    height: fit-content;
+}
+.for_title h1 {
+    font-weight: 900;
+    font-size: 40px;
+    animation-name: for_h1;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+@keyframes for_h1 {
+    0% {
+        transform: translateY(-300px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+}
+.for_title button {
+    border: 2px solid;
+    border-radius: 30px;
+    padding: 13px 40px;
+    background-color: white;
+    animation-name: for_button;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+@keyframes for_button {
+    0% {
+        transform: translatex(900px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+}
+.for_title p {
+    animation-name: for_p;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+@keyframes for_p {
+    0% {
+        transform: translateY(500px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+}
+.xleb {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 800px;
+    object-fit: cover;
+    animation-name: for_xleb;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
+/* @keyframes for_xleb {
+    0% {
+        transform: rotate(359deg);
+        opacity: 0;
+    }
+    100% {
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+    
+} */
